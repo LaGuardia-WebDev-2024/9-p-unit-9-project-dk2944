@@ -36,6 +36,7 @@ drawUnicorn(100, 1);
   }
   if(mousePressed){text ("Magic",random(0,600), random (0,400));
   }
+  ellipse(mouseX, mouseY,10,10)
 };
 
 mouseClicked = function(){
